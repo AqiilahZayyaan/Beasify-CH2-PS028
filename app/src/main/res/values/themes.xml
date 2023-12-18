@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Beasify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Beasify" parent="Base.Theme.Beasify" />
+
+    <!-- SplashScreen Style -->
+    <style name="App.Theme.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customizations for NoActionBar theme -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Other customizations -->
+    </style>
+</resources>

@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Beasify</string>
-    <string name="Home">Home</string>
-    <string name="Result">Result</string>
-    <string name="Setting">Setting</string>
-    <string name="About">About</string>
-    <string name="desc_about">An application to determine scholarships aimed at scholarship providers.
-        Anyone can use this app for their own needs without any limits.</string>
-    <string name="Upload">Upload File CSV:</string>
-    <string name="upload_btn">Upload File</string>
+    <string name="Home">Rumah</string>
+    <string name="Result">Hasil</string>
+    <string name="Setting">Pengaturan</string>
+    <string name="About">Tentang</string>
+    <string name="desc_about">Aplikasi untuk menentukan beasiswa yang ditujukan untuk penyedia beasiswa.
+        Siapapun dapat menggunakan aplikasi ini untuk kebutuhan mereka sendiri tanpa batas.</string>
+    <string name="Upload">Unggah Berkas CSV:</string>
+    <string name="upload_btn">Unggah Berkas</string>
 </resources>

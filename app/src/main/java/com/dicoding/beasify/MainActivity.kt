@@ -2,26 +2,32 @@ package com.dicoding.beasify
 
 import android.content.Intent
 import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.OpenableColumns
-import android.view.Menu
+import android.provider.Settings
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-
+import com.dicoding.beasify3.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
     private val PICK_FILE_REQUEST_CODE = 1001
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding  = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        setupAction()
 
         val buttonUploadFile: Button = findViewById(R.id.buttonUploadFile)
         buttonUploadFile.setOnClickListener {
             openFileManager()
         }
+ main
+
 
         val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -35,12 +41,13 @@ class MainActivity : AppCompatActivity() {
                 else -> super.onOptionsItemSelected(item)
             }
         }
-
+ main
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.toolbar, menu)
-        return true
+    private fun setupAction() {
+        binding.settingImageView.setOnClickListener {
+            startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+        }
     }
 
     private fun openFileManager() {
@@ -83,6 +90,5 @@ class MainActivity : AppCompatActivity() {
         }
         return result ?: "Unknown"
     }
-
 
 }

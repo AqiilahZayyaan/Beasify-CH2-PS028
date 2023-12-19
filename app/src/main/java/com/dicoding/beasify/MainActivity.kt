@@ -9,7 +9,7 @@ import android.provider.Settings
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.dicoding.beasify3.databinding.ActivityMainBinding
+import com.dicoding.beasify.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

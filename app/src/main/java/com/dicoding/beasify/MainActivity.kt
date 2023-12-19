@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         toolbar.setOnMenuItemClickListener { item ->
             when (item.itemId) {
                 R.id.about -> {
-                    startActivity(Intent(this, AboutActivity::class.java))
+                    startActivity(Intent(this, SettingActivity::class.java))
                     true
                 }
                 else -> super.onOptionsItemSelected(item)

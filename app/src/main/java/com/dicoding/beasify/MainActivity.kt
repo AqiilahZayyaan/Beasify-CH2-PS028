@@ -26,22 +26,6 @@ class MainActivity : AppCompatActivity() {
         buttonUploadFile.setOnClickListener {
             openFileManager()
         }
- main
-
-
-        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
-
-        toolbar.setOnMenuItemClickListener { item ->
-            when (item.itemId) {
-                R.id.about -> {
-                    startActivity(Intent(this, SettingActivity::class.java))
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
-            }
-        }
- main
     }
 
     private fun setupAction() {

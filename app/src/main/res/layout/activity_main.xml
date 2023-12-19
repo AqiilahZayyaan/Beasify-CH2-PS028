@@ -16,14 +16,24 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/navy"
             app:contentInsetEnd="20dp"
-            app:menu="@menu/toolbar"
             app:title="Beasify"
             app:titleTextColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/settingImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginEnd="8dp"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_settings_24"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -35,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="104dp"
-                android:text="Unggah File CSV: "
+                android:text="@string/Upload"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="144dp"
-                android:text="Upload File"
+                android:text="@string/upload_btn"
                 app:layout_constraintBottom_toTopOf="@+id/checkBox5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -56,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="76dp"
                 android:layout_marginBottom="216dp"
-                android:text="CheckBox"
+                android:text="Penghasilan Orang tua"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -66,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="76dp"
                 android:layout_marginBottom="8dp"
-                android:text="CheckBox"
+                android:text="Sertifikat"
                 app:layout_constraintBottom_toTopOf="@+id/checkBox2"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -76,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="76dp"
                 android:layout_marginBottom="8dp"
-                android:text="CheckBox"
+                android:text="SKTM"
                 app:layout_constraintBottom_toTopOf="@+id/checkBox3"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -86,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="76dp"
                 android:layout_marginBottom="8dp"
-                android:text="CheckBox"
+                android:text="IPK"
                 app:layout_constraintBottom_toTopOf="@+id/checkBox4"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -100,7 +110,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

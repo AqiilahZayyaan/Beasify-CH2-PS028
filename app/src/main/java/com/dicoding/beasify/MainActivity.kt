@@ -9,7 +9,8 @@ import android.provider.Settings
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import com.dicoding.beasify3.databinding.ActivityMainBinding
+import com.dicoding.beasify.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -25,6 +26,17 @@ class MainActivity : AppCompatActivity() {
         val buttonUploadFile: Button = findViewById(R.id.buttonUploadFile)
         buttonUploadFile.setOnClickListener {
             openFileManager()
+        }
+
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.about -> {
+                    startActivity(Intent(this, AboutActivity::class.java))
+                    true
+                }
+                else -> false
+            }
         }
     }
 

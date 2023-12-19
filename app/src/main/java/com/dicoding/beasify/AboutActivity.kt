@@ -10,7 +10,7 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
     }
 
-//    private fun showProgressBar(isLoading: Boolean) {
-//        binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
-//    }
+    private fun showProgressBar(isLoading: Boolean) {
+        binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
+    }
 }

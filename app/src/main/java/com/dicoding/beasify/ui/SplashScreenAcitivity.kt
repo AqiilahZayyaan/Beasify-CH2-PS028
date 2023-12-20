@@ -1,10 +1,12 @@
-package com.dicoding.beasify
+package com.dicoding.beasify.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.dicoding.beasify.MainActivity
+import com.dicoding.beasify.R
 
 class SplashScreenAcitivity : AppCompatActivity()  {
     private val SPLASH_DISPLAY_LENGTH = 3000 // Milliseconds
@@ -16,7 +18,6 @@ class SplashScreenAcitivity : AppCompatActivity()  {
         Handler(Looper.getMainLooper()).postDelayed({
             val mainIntent = Intent(this@SplashScreenAcitivity, MainActivity::class.java)
             startActivity(mainIntent)
-            finish()
         }, SPLASH_DISPLAY_LENGTH.toLong())
     }
 }

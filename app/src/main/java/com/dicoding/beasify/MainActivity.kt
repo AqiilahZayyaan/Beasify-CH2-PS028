@@ -16,6 +16,10 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+import com.dicoding.beasify.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+
 class MainActivity : AppCompatActivity() {
     private val apiService = ApiService()
     private lateinit var binding: ActivityMainBinding
@@ -33,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             openFileManager()
         }
 
+
         val call: Call<Api> = apiService.getApi()
         call.enqueue(object : Callback<Api> {
             override fun onResponse(call: Call<Api>, response: Response<Api>) {
@@ -48,6 +53,18 @@ class MainActivity : AppCompatActivity() {
                 // Handle failure
             }
         })
+
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.about -> {
+                    startActivity(Intent(this, AboutActivity::class.java))
+                    true
+                }
+                else -> false
+            }
+        }
+
     }
 
     private fun setupAction() {

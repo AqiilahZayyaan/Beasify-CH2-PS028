@@ -1,8 +1,8 @@
-package com.dicoding.beasify
+package com.dicoding.beasify.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import com.dicoding.beasify.R
 
 class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

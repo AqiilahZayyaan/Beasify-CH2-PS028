@@ -9,10 +9,19 @@ import android.provider.Settings
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.dicoding.beasify.data.Api
+import com.dicoding.beasify.data.ApiService
+import com.dicoding.beasify.databinding.ActivityMainBinding
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
 import com.dicoding.beasify.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+
 class MainActivity : AppCompatActivity() {
+    private val apiService = ApiService()
     private lateinit var binding: ActivityMainBinding
     private val PICK_FILE_REQUEST_CODE = 1001
 
@@ -28,6 +37,23 @@ class MainActivity : AppCompatActivity() {
             openFileManager()
         }
 
+
+        val call: Call<Api> = apiService.getApi()
+        call.enqueue(object : Callback<Api> {
+            override fun onResponse(call: Call<Api>, response: Response<Api>) {
+                if (response.isSuccessful) {
+                    val api: Api? = response.body()
+                    // Handle the response data
+                } else {
+                    // Handle error
+                }
+            }
+
+            override fun onFailure(call: Call<Api>, t: Throwable) {
+                // Handle failure
+            }
+        })
+
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
@@ -38,6 +64,7 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
     }
 
     private fun setupAction() {

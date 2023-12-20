@@ -1,11 +1,12 @@
-package com.dicoding.beasify
+package com.dicoding.beasify.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dicoding.beasify.R
 
-class ResultActivity : AppCompatActivity() {
+class SettingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_result)
+        setContentView(R.layout.activity_setting)
     }
 }

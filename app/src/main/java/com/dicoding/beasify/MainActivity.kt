@@ -12,11 +12,10 @@ import android.widget.Toast
 import com.dicoding.beasify.data.Api
 import com.dicoding.beasify.data.ApiService
 import com.dicoding.beasify.databinding.ActivityMainBinding
+import com.dicoding.beasify.ui.AboutActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
-import com.dicoding.beasify.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

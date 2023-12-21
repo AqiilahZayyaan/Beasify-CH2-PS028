@@ -1,6 +1,6 @@
 # Beasify-BangkitProject
 Beasify is an innovative platform that serves as a one-stop solution for scholarship seekers and providers, facilitating the easy discovery and acquisition of the right scholarships.
-# Background
+# About Us
 Conducting a comprehensive literature review on scholarship platforms, assessing the existing solutions, identifying gaps, and highlighting the need for a one-stop solution like Beasify will provide the necessary groundwork
 # Reason
 Beasify addresses the complexities faced by both scholarship seekers and providers, streamlining the search process and bridging the gap between the two parties. The problem statement involves the challenges in accessing and providing scholarship information efficiently

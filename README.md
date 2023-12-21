@@ -2,7 +2,7 @@
 Beasify is an innovative platform that serves as a one-stop solution for scholarship seekers and providers, facilitating the easy discovery and acquisition of the right scholarships.
 # About Us
 Conducting a comprehensive literature review on scholarship platforms, assessing the existing solutions, identifying gaps, and highlighting the need for a one-stop solution like Beasify will provide the necessary groundwork
-# Why Choose Us ?
+# Why Us ?
 Beasify addresses the complexities faced by both scholarship seekers and providers, streamlining the search process and bridging the gap between the two parties. The problem statement involves the challenges in accessing and providing scholarship information efficiently
 # Our Progress
 While various platforms might address aspects of scholarship provision, a unified solution like Beasify might be unique. Identifying missing elements like streamlined provider interaction or tailored search algorithms could be essential.

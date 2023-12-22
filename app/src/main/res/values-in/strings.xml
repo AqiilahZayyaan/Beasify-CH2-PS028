@@ -7,6 +7,7 @@
     <string name="About">Tentang</string>
     <string name="desc_about">Aplikasi untuk menentukan beasiswa yang ditujukan untuk penyedia beasiswa.
         Siapapun dapat menggunakan aplikasi ini untuk kebutuhan mereka sendiri tanpa batas.</string>
+    <string name="takeline" translatable="false">Empowering Dream, Connecting Futures</string>
     <string name="Upload">Unggah Berkas CSV:</string>
     <string name="upload_btn">Unggah Berkas</string>
 </resources>

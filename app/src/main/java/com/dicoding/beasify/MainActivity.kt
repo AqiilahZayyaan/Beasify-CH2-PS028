@@ -13,6 +13,7 @@ import com.dicoding.beasify.data.Api
 import com.dicoding.beasify.data.ApiService
 import com.dicoding.beasify.databinding.ActivityMainBinding
 import com.dicoding.beasify.ui.AboutActivity
+import com.dicoding.beasify.ui.ResultActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -60,8 +61,17 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, AboutActivity::class.java))
                     true
                 }
+                R.id.result -> {
+                    startActivity(Intent(this, ResultActivity::class.java))
+                    true}
                 else -> false
             }
+        }
+
+        val buttonSubmit: Button = findViewById(R.id.button_submit)
+
+        buttonSubmit.setOnClickListener {
+            startActivity(Intent(this, ResultActivity::class.java))
         }
 
     }

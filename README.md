@@ -19,11 +19,11 @@ Beasify's business plan includes enhancing user interface, targeted marketing ca
 # Our Team
 
 | Name  | University | Learning Path | BANGKIT ID | 
-|:-----:|:----------:|:-------------:|:----------:|
+|:------------:|:-------------:|:---------------:|:--------------:|
 | Aqiilah Zayyaan Syihab | UPN "Veteran" Jawa Timur | Cloud Computing | C296BSY4302 |
 | Risha Kurnia Fitri | Universitas Negeri Surabaya | Cloud Computing | C284BSX3037 |
 | Bintang Tiara Pramesti | UPN "Veteran" Jawa Timur | Mobile Development | A296BSX2586 |
 | Ahmad Nur Sufiyan Tsauri | Politeknik Negeri Jakarta | Mobile Development | A128BSY1951 |
-| Firdaus Bagus Wicaksono | Politeknik Negeri Jakarta | Machine Learning | M284BSY0127 |
+| Firdaus Bagus Wicaksono | Universitas Negeri Surabaya | Machine Learning | M284BSY0127 |
 | Amelia Putri Ristyawardani | Universitas Negeri Surabaya | Machine Learning | M284BSX1166 |
 | Muhammad Arizal Fahlepi | Universitas Bangka Belitung | Machine Learning | M348BSY1224 |

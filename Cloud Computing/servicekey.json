@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "beasify-bangkitproject",
+  "private_key_id": "f777291510dd2061f930552471d57a76af2d92f0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2jC5wINWKNxEY\nmryeEVKrlYYW+IQyyqxeVHV0E+ED5IH6T6i/oHryvR/T/gpBAAM89zZUuAteuV+7\n4UEBELMSPl1+VAogxmAQ6pboYVCxe/wjWMXnM01A6ejj9lwpXyOrSrkZBkTpAWrQ\nPl92Gy5noKAWR0B4aVa4MYeX0zK6FHySTXzX/Ax4XGwjtOv5rklpwrMNWXPrLoFh\n91qTOqQhxwvXDqKO7/9s6H6aWAmdbkmTR730NjDbMiv8qfxw/MLeepUwvHgQGCwO\n8QFeyBgUJCKgZdccOhXo4w+rTk87tmRVWzCG5VyLIH7PQSM6bgSkrBrIOyovFHgn\nqHxkS1mDAgMBAAECggEAV7lJ36yHseIAnzhNCBD/D2HNjGBk9xuadcJUpzGeYoZ/\nR9DcISp3qwrjrrZYKyBcbgHG5DOFk0G2Fc2LtX1W8J9zwm+UZmeuZrK1TnrlkkUo\nx7uzbwWiTF2cA2CyrVcBByHjjXkLyIVb1TMEIPey9y2jgNFA1BybBe0XYgimSfEZ\n7Ebx9UM4GBtkWWSA7NDqZN5T70kst1XeLvwfDpw79DIWYOyhsk1atboYWrmFxUw9\nDOUtPmPwC3i3y86YjewDQiXsV6B9SNv5P5ShaaQEJ/k03mQ4Xe+PZI5acIPgFTNM\n3FjTMP4J+N278E/UK9w4A/iw1sgZBsqcPUt39y4YsQKBgQDqnkuLkyYMq9fIgHeE\nn+Efc7a1JTIU6UHF/gc7xSxft30drbKRII53wEF5Z+vgol9HyOLYZ58fri9WoBe0\n81o41wjOpucAlei4/5U6AqZ128tlBpqbb5KFTSk0768nsoIXX0QPlvQp6RycBnSN\nd2YkKwYICpqpsEhakg0jGe5g3QKBgQDHLw/8lQXAXosSw7sVoc4lUDgKvJ/mpv6F\naPV8HVCPGL42Yit8p7o0PAAsYtZIPIJt6DlXxlutLvSpydT6o7AnKybPax4UYSfO\nyTXTobuGUrRbzTCbInhX85TL5j7C7bG5L/v7rXUAkexOfK97Hnk9Bm3drpThM4vb\n+L6qRyTN3wKBgDyv5WqdDWKJsK80S7YKhPjVvZTtoh62l0TXiJd1UR0RIVPj8iSH\n/1IKcOUudF0Oowa2d7byVr6jF6uYjYlIyTWaqbSKh4YnQKNZuQfgV5501A+1vZgn\nLAc/BkGjHfNuwSe6hKhjq5SLr9LL+Kn/EHSajFzYIVlzN8P1s2A4/OghAoGAJoKr\n5ZrubL4ax3r+bfVFxSMYYsMLa234IdUkOWX1kGUpSZx7afOH5dd/9RT69yZz1Uoj\n5Bue2AIPHdC/E+KYCUqni0zbmPcb2jg+5vcLKbJN2r32Wtg0SlT2/OE8WzXXucVU\nQ9nKmFyeQqKKzxQaPrlCfqzlbhEoRlR2kLeGnyMCgYEAxikVgYe2sIogtGTNdV7q\nJTLI/xxvZxyuWqg1mE3i0vlvFp3c8OG841sHH+SgggQE6j5FCyADDY00o2H07dcn\ndFqlL9GYRtN093UElK1He6zqELbuGDE2UHesWrZ1v/XXAXCQJnaHjMTuiTb/bh3C\nPIWbjTj2+NYGf9R5NxloKAY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "beasify-bucket@beasify-bangkitproject.iam.gserviceaccount.com",
+  "client_id": "113082441271390830710",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/beasify-bucket%40beasify-bangkitproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

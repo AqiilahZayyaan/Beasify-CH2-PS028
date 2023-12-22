@@ -7,6 +7,7 @@
     <string name="About">About</string>
     <string name="desc_about">An application to determine scholarships aimed at scholarship providers.
         Anyone can use this app for their own needs without any limits.</string>
+    <string name="takeline" translatable="false">Empowering Dream, Connecting Futures</string>
     <string name="Upload">Upload File CSV:</string>
     <string name="upload_btn">Upload File</string>
 </resources>

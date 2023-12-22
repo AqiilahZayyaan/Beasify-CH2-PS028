@@ -6,6 +6,13 @@
     android:padding="20dp">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/takeline"
+        android:gravity="center"/>
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="333dp"
         android:layout_height="142dp"
